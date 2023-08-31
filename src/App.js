@@ -10,9 +10,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Homepage />}></Route>
-          <Route path="about" element={<About />}></Route>
-          <Route path="*" element={<Page404 />}></Route>
+          <Route path="image-search" element={<Homepage />}></Route>
+          <Route path="image-search/about" element={<About />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
