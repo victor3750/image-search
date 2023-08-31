@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.morePicture button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.3rem;
+  border: none;
+  background-color: rgb(186, 252, 181);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.morePicture button:hover {
+  transform: scale(1.15);
+}
+
+nav {
+  background-color: rgb(228, 255, 226);
+  min-height: 5vh;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+nav ul li a {
+  font-size: 1.25rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+.search input,
+.search button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 3px solid rgb(186, 252, 181);
+}
+.search button {
+  background-color: rgb(186, 252, 181);
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  background-color: rgb(228, 255, 226);
+  min-height: 10vh;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  font-style: italic;
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}
+.pictures .picture .textContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.pictures .picture .textContainer .photoGrapher {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: end;
+}
+.pictures .picture .textContainer .photoGrapher span {
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
