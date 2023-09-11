@@ -6,11 +6,11 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/image-search">
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="image-search" element={<Homepage />}></Route>
-          <Route path="image-search/about" element={<About />}></Route>
+          <Route index element={<Homepage />}></Route>
+          <Route path="about" element={<About />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
