@@ -110,6 +110,7 @@ nav ul li a {
 .pictures .picture .textContainer .photoGrapher {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 0.75rem;
   text-align: end;
 }
 .pictures .picture .textContainer .photoGrapher span {
